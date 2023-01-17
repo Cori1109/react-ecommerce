@@ -1,32 +1,32 @@
-# E-commerce電商購物車
+# E-commerce Shopping Cart
 
-![首頁截圖頁面](https://github.com/gn00667340/react-ecommerce/blob/master/src/assets/preview.png)
+![Home Screenshot Page](https://github.com/gn00667340/react-ecommerce/blob/master/src/assets/preview.png)
 
-## Demo - 專案展示
+## Demo - Project display
 
 [Demo Website](https://gn00667340.github.io/react-ecommerce/)
 
-## Features - 專案功能
+## Features - Project function
 
-  1. 取得API資料並自動產生商品列表
-  2. 品牌篩選器、價格排序選單
-  3. 購物車功能
-  4. RWD 響應式網頁設計
+  1. Obtain API information and automatically generate product list
+  2. Brand filter, price sorting menu
+  3. Shopping cart function
+  4. RWD Responsive Web Design
 
-## Technical Skills - 使用哪些技術實作專案
+## Technical Skills - Which technologies are used to implement the project
 
-- Create-react-app - 快速建立React專案環境
-- Redux - 管理全域狀態
-- React-redux - 全域存取store權限
-- React-hooks - 使用useState建立區域狀態，使用useEffect搭配API串接
-- Material-UI - 版面設計、實作響應式網站
-- Json-server - API串接測試
-- Heroku - 部署遠端API
+- Create-react-app - Quickly create a React project environment
+- Redux - manage global state
+- React-redux - global access to store permissions
+- React-hooks - Use useState to create region state, use useEffect with API serialization
+- Material-UI - layout design, implementation of responsive website
+- Json-server - API connection test
+- Heroku - deploy remote API
 
-## Resource - 資料引用來源
+## Resource - source of material reference
 
 - [OWNDAYS](https://www.owndays.com/tw/zh_tw)
 
-## Declaration - 聲明
+## Declaration - Declaration
 
-- 本作品內圖片、內容等，純粹為個人練習前端使用，不做任何商業用途。
+- The pictures, content, etc. in this work are purely for personal practice front-end use, not for any commercial use.

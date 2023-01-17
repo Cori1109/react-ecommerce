@@ -1,4 +1,4 @@
-//加入購物車，數量更改
+//Add to cart, quantity change
 const items = [];
 
 const cartItems = (state = items, action) => {

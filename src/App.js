@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 // import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Products, Navbar, Selector, ImageCarousel, Footer } from './components';
-//import from index.js 集中導入維持code整潔
+//import from index.js Centralized import to keep the code clean
 import DataUsageSharpIcon from '@material-ui/icons/DataUsageSharp';
 import { makeStyles } from '@material-ui/core/styles';
 import axios from 'axios';

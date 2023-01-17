@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { AddShoppingCart } from '@material-ui/icons';
 import { IconButton } from '@material-ui/core';
 import { addCarting, shakeShake } from '../../../actions';
-//useDispatch夾帶action發送到store
+//useDispatch entrainment action is sent to store
 const useStyles = makeStyles(() => ({
   plusOne: {
     position: 'relative',

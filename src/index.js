@@ -4,7 +4,7 @@ import App from './App';
 import store from './store/store'
 import { Provider } from 'react-redux';
 
-//利用react-redux的Provider從最頂層父元素向下傳遞讓所有子元件都能調用到store的數據
+//Use react-redux's Provider to pass down from the top parent element so that all child elements can call the data of the store
 ReactDOM.render(
   <Provider store={store}>
     <App />

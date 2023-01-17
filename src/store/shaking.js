@@ -1,4 +1,4 @@
-// 加入購物車動畫狀態
+// Add to cart animation state
 const shaking = (state=false,action)=>{
   if(action.type==='SHAKE_SHAKE'){
     const newState = action.boolean;

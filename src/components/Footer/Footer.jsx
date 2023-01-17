@@ -48,11 +48,11 @@ const Footer = () => {
   return (
     <div className={classes.footer}>
       <div>
-        <span><a href="https://github.com/gn00667340/react-ecommerce">View Source on Github</a>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
-        <span><a href="https://www.cakeresume.com/street85240-da66d3">Go to My CakeResume</a>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
-        <span><a href="https://www.cakeresume.com/users/street85240/portfolio?ref=dashboard_navs_portfolio">Watch My Portfolio</a></span>
+        <span><a href="https://github.com/Cori1109/react-ecommerce">View Source on Github</a>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+        <span><a href="https://www.cakeresume.com/me/chris-jenkins-702cae">Go to My CakeResume</a>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+        <span><a href=" https://www.cakeresume.com/me/chris-jenkins-702cae/portfolios">Watch My Portfolio</a></span>
       </div>
-      <p>2021 Design by Tyson Lin  </p>
+      <p>2021 Design by Chris  </p>
     </div>
   )
 }

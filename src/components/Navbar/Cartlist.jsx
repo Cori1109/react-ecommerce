@@ -47,7 +47,7 @@ const Cartlist = ({ toggleDrawer }) => {
     }
   }
   const cashFlow = () => {
-    alert(`您購買的件數為${totalCount()}件\r總金額為${total()}元`)
+    alert(`The number of pieces you purchased is ${totalCount()} pieces\rThe total amount is $ ${total()}`)
   }
   return (
     <div className={classes.list}>
@@ -61,14 +61,14 @@ const Cartlist = ({ toggleDrawer }) => {
               <TableHead>
                 <TableRow>
                   <TableCell align="center" colSpan={4}>
-                    <h1><ShoppingCartRounded />購物車</h1>
+                    <h1><ShoppingCartRounded />Shopping Cart</h1>
                   </TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell />
-                  <TableCell align="left" style={{ padding: 0 }}>商品資訊</TableCell>
-                  <TableCell align="center" style={{ padding: 0 }}>數量</TableCell>
-                  <TableCell align="center">小計</TableCell>
+                  <TableCell align="left" style={{ padding: 0 }}>Product Information</TableCell>
+                  <TableCell align="center" style={{ padding: 0 }}>Amount</TableCell>
+                  <TableCell align="center">Subtotal</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -91,13 +91,13 @@ const Cartlist = ({ toggleDrawer }) => {
                 ))}
                 <TableRow>
                   <TableCell colSpan={2} />
-                  <TableCell colSpan={1} align="center">共</TableCell>
-                  <TableCell align="center">{totalCount()} 件</TableCell>
+                  <TableCell colSpan={1} align="center">Common</TableCell>
+                  <TableCell align="center">{totalCount()} Pieces</TableCell>
                 </TableRow>
                 <TableRow>
                   <TableCell colSpan={2} />
-                  <TableCell colSpan={1} align="center" style={{ padding: 0 }}>總金額</TableCell>
-                  <TableCell align="center">{total()} 元</TableCell>
+                  <TableCell colSpan={1} align="center" style={{ padding: 0 }}>Total Amount</TableCell>
+                  <TableCell align="center">$ {total()}</TableCell>
                 </TableRow>
               </TableBody>
             </Table>
@@ -110,7 +110,7 @@ const Cartlist = ({ toggleDrawer }) => {
               endIcon={<MonetizationOn />}
               onClick={cashFlow}
             >
-              結帳
+              Checkout
             </Button>
           </div>
         </>

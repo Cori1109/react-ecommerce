@@ -1,4 +1,4 @@
-//預設由根目錄的index.js指向component位置
+//The default is to point to the component location from index.js in the root directory
 export { default as Navbar } from './Navbar/Navbar';
 export { default as Products } from './Products/Products';
 export { default as Selector } from './Selector/Selector';

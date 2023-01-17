@@ -1,4 +1,4 @@
-//修改store所調用的action
+//Modify the action called by the store
 
 export const addCarting = (product) => {
   return {

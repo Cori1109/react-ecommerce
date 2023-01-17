@@ -2,10 +2,10 @@ import shaking from './shaking';
 import cartItems from './cartItems';
 import {combineReducers} from 'redux';
 
-//將兩個store混合成一個
+//Mix two stores into one
 const allReducers = combineReducers({
-  shaking:shaking,
-  // 使用串接API資料替代，留下原本資料日後參考用
+  shaking: shaking,
+  // Use the concatenated API data instead, leaving the original data for future reference
   cartItems:cartItems,
 })
 export default allReducers;
